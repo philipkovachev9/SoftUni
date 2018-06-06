@@ -6,10 +6,10 @@ The output is printed on the console on two lines. On the first line print the f
 the second line print the last k elements, separated by space.
 */
 function firstAndLastNumbers(array) {
-    let k = array.shift();
-    console.log(array.slice(0,k).join(' '));
-    console.log(array.slice(array.length - k).join(' '));
-     
-  }
-  
-  firstAndLastNumbers([2,7,8,9]);
+  let k = array.shift();
+  console.log(array.slice(0, k).join(' '));
+  console.log(array.slice(array.length - k).join(' '));
+
+}
+
+firstAndLastNumbers([2, 7, 8, 9]);

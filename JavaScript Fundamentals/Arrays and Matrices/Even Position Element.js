@@ -7,7 +7,7 @@ The output is the return value of your function. Collect all elements in a strin
 function findEvenPositions(array) {
     let result = [];
     for (const index in array) {
-        if(index % 2 ===0) {
+        if (index % 2 === 0) {
             result.push(array[index])
         }
     }
