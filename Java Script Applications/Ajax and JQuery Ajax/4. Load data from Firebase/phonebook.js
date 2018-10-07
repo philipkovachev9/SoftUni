@@ -8,7 +8,7 @@ const NAME = $('#person');
 const PHONE = $('#phone');
 
 $('#btnLoad').on('click', loadContacts);
-$('#btnLoad').on('click', createContact)
+$('#btnCreate').on('click', createContact)
 
 
 function loadContacts() {
